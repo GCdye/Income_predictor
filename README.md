@@ -20,7 +20,7 @@ Marital status, race, sex
 
 ### Part - 3: Building a Model
 For this project we tried three models with pretty similar scores. To get a baseline performance We started with logistic regression. Followed by a random decision foreest and ultimately and ADABoost model to give us a final accuracy score of 86%. This was over ten percent increase on the baseline accuracy of 75%. To prep our data for the model we scaled using standard scaler from sklearn, and to boost our performance we added polynomial features. All steps contributed to a better model.
-<<<<<<< omar
+
 Logistic Regression: our y ‘income’ is binary.
 Random Forest Classifier: because there was a chance of overfitting and it is a more powerful classifier.
 AdaBoost with Decision Tree Classifier: we wanted to learn more from our weak features. Most of our features had weak correlation to income so with AdaBoost multiple models are built on top of each other find the best features.
@@ -74,4 +74,3 @@ For this project we tried three models with pretty similar scores. To get a base
 
 ### Part - 4: Excutive Summary
 We built a model to predict if someone will make greater than or less than $50,000 given their age, education level, occupation, working class, hours per week, marital status, race and sex. The dataframe we recieved had no columns so when assigning the  we cleaned the data by removing the "?" which we turned into null values. We plotted our data. We tried 3 models: Random Forest, Logisitic Regression and ADAboost with a Decision Tree Classifier. The best score came from random forest classifier model.
->>>>>>> master
