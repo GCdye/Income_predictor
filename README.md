@@ -19,14 +19,22 @@ Marital status, race, sex
 
 
 ### Part - 3: Building a Model
+Logistic Regression: our y ‘income’ is binary.
+Random Forest Classifier: because there was a chance of overfitting and it is a more powerful classifier.
+AdaBoost with Decision Tree Classifier: we wanted to learn more from our weak features. Most of our features had weak correlation to income so with AdaBoost multiple models are built on top of each other find the best features.
+
+Logistic Regression: Train: 86% and Test: 85% 
+Random Forest Classifier: Train: 87% and Test: 86.5%
+AdaBoost/ Decision Tree Classifier: Train: 86% and Test: 86%
 
 
 ### Part - 4: Explanation
 #### What type of model(s) did you use and why?
 
-Logistic Regression because our y ‘income’ is binary.
-Random Forest Classifier- because there was a chance of overfitting and it is a more powerful classifier.
+Logistic Regression: our y ‘income’ is binary.
+Random Forest Classifier: because there was a chance of overfitting and it is a more powerful classifier.
 AdaBoost with Decision Tree Classifier: we wanted to learn more from our weak features. Most of our features had weak correlation to income so with AdaBoost multiple models are built on top of each other find the best features.
+
 
 #### How did you select the variables to be included in the model?
 
