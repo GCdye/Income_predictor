@@ -20,7 +20,6 @@ Marital status, race, sex
 
 ### Part - 3: Building a Model
 For this project we tried three models with pretty similar scores. To get a baseline performance We started with logistic regression. Followed by a random decision foreest and ultimately and ADABoost model to give us a final accuracy score of 86%. This was over ten percent increase on the baseline accuracy of 75%. To prep our data for the model we scaled using standard scaler from sklearn, and to boost our performance we added polynomial features. All steps contributed to a better model.
-
 Logistic Regression: our y ‘income’ is binary.
 Random Forest Classifier: because there was a chance of overfitting and it is a more powerful classifier.
 AdaBoost with Decision Tree Classifier: we wanted to learn more from our weak features. Most of our features had weak correlation to income so with AdaBoost multiple models are built on top of each other find the best features.
@@ -68,8 +67,8 @@ Logistic Regression: Train: 86% and Test: 85%
 Random Forest Classifier: Train: 87% and Test: 86.5%
 AdaBoost/ Decision Tree Classifier: Train: 86% and Test: 86%
 
+
 In the end, we found that education and age has the highest correlation to income.
-=======
 For this project we tried three models with pretty similar scores. To get a baseline performance We started with logistic regression. Followed by a random decision foreest and ultimately and ADABoost model to give us a final accuracy score of 86%. This was over ten percent increase on the baseline accuracy of 75%. To prep our data for the model we scaled using standard scaler from sklearn, and to boost our performance we added polynomial features. All steps contributed to a better model.
 
 ### Part - 4: Excutive Summary
