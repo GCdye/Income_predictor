@@ -1,5 +1,9 @@
 # Income_predictor
-A machine learning experiment for predicting incomes
+A machine learning experiment for predicting incomes by:
+Greg "Chuck" Dye
+Deepa Mahidhara
+Omar Raheem
+Aruna Rayapeddi
 ## Problem statement
 Build a model to predict if someone will make greater than or less than $50,000 given their:
 Age
